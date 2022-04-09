@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 4.5rem;
+    left: .5rem;
+    height: 88%;
+    width: 6rem;
+    background: #fff;
+    border-radius: 1rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.menu-links i{
+    color: #247881;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.menu-links i:hover{
+    background: #247881;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

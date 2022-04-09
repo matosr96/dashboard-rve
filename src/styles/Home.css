@@ -1,0 +1,12 @@
+.container{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+    width: calc(100% - 9.2rem);
+    margin-left: 8rem;
+    gap: 1rem;
+    margin-top: .7rem;
+    border-radius: 1rem;
+    height: 87%;
+}
